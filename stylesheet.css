@@ -7,6 +7,7 @@
 
 :root {
     font-family: 'Roboto';
+    background-color: lightgray;
 }
 
 /* Stili del logo */
@@ -33,10 +34,100 @@
 .primo_contenitore{
     background-color: black;
     height: 50px;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-right: 20%;
     margin-left: 20%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     border-bottom: 1px solid gray;
+}
+
+#add_task{
+    display: inline;
+    color: white;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 70px;
+    height: 25px;
+    outline: none;
+    border: none;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#add_section{
+    display: inline;
+    color: lightgray;
+    background-color: white;
+    border-radius: 5px;
+    width: 85px;
+    height: 25px;
+    outline: none;
+    border-color: lightgray;
+}
+
+/* Secondo contenitore */
+.secondo_contenitore{
+    background-color: red;
+    margin-right: 20%;
+    margin-left: 20%;
+    height: 650px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 40px;
+}
+
+.titoli_corpo{
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+
+/* Freccia per aprire il menu a tendina */
+.arrow-down {
+    display: inline-block;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+
+/* Simbolo del verificato con del testo ed Editorial */
+.verified::after{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid green;
+    width: 20px;
+    height: 20px;
+    content: "\2713";
+    vertical-align: middle;
+    line-height: 20px;
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.testo{
+    font-size: medium;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-bottom: 0;
+}
+.editorial{
+    display: inline;
+    color: white;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 70px;
+    height: 25px;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+}
+.margine_testo{
+    margin-bottom: 10px;
 }
