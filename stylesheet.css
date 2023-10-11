@@ -118,43 +118,31 @@
     padding-left: 10px;
     padding-bottom: 0;
 }
-.editorial{
+.etichetta{
     display: inline;
     color: white;
-    background-color: aqua;
     border-radius: 10px;
     width: 70px;
     height: 25px;
     outline: none;
     border: none;
     margin-left: 5px;
+    
+}
+.etichetta_editorial{
+    
+    background-color: aqua;
 }
 .margine_testo{
     margin-bottom: 20px;
 }
 
 /* Restante parte del main contenente le dovute modifiche in base al layout da replicare */
-#q1_goals{
-    display: inline;
-    color: white;
+.etichetta_q1_goals{
     background-color: purple;
-    border-radius: 10px;
-    width: 75px;
-    height: 25px;
-    outline: none;
-    border: none;
-    margin-left: 5px;
 }
-#recruiting{
-    display: inline;
-    color: white;
+.etichetta_recruiting{
     background-color: green;
-    border-radius: 10px;
-    width: 75px;
-    height: 25px;
-    outline: none;
-    border: none;
-    margin-left: 5px;
 }
 .unverified::after{
     content: "\2717";
@@ -171,36 +159,12 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#mobile{
-    display: inline;
-    color: white;
+.etichetta_mobile{
     background-color: orange;
-    border-radius: 10px;
-    width: 70px;
-    height: 25px;
-    outline: none;
-    border: none;
-    margin-left: 5px;
 }
-#website{
-    display: inline;
-    color: white;
+.etichetta_website{
     background-color: palevioletred;
-    border-radius: 10px;
-    width: 70px;
-    height: 25px;
-    outline: none;
-    border: none;
-    margin-left: 5px;
 }
-#sales{
-    display: inline;
-    color: white;
+.etichetta_sales{
     background-color: greenyellow;
-    border-radius: 10px;
-    width: 70px;
-    height: 25px;
-    outline: none;
-    border: none;
-    margin-left: 5px;
 }
